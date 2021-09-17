@@ -1,4 +1,4 @@
-const InitialState = 0
+const InitialState = 10
 
  const changeNumber = (state = InitialState, action) => {
      console.log(action,state)

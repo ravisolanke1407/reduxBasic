@@ -11,3 +11,17 @@ export const decrementNumber =(number)=>{
         payload:number
     }
 }
+
+export const multiplyNumber =(number)=>{
+    return{
+        type:"MUL",
+        payload:number
+    }
+}
+
+export const divideNumber =(number)=>{
+    return{
+        type:"DIV",
+        payload:number
+    }
+}
